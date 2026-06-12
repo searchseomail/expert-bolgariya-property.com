@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://expert-bolgariya-property.com/sitemap.txt

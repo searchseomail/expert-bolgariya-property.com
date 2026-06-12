@@ -1,0 +1,705 @@
+
+    
+    <!DOCTYPE html>
+    <html lang="bg">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Форум - Начална страница</title>
+        <meta name="robots" content="index, follow">
+        <link rel="icon" href="https://expert-bolgariya-property.com/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://expert-bolgariya-property.com/css/styles.css">
+        <script>const BASE_URL = "https://expert-bolgariya-property.com";</script>
+        <script src="https://expert-bolgariya-property.com/js/search.js" defer></script>
+        <script src="https://expert-bolgariya-property.com/js/auth.js" defer></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="header-container">
+                <a href="https://expert-bolgariya-property.com/" class="logo">
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg> Expert Bolgariya Property
+                </a>
+                
+                <div class="search-wrapper">
+                    <input type="text" id="searchInput" placeholder="Търсене във форума..." autocomplete="off" class="search-input">
+                    <button class="search-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 14z"/></svg></button>
+                    <div id="searchResults" class="search-results"></div>
+                </div>
+
+                <nav class="header-nav">
+                    <a href="/" class="nav-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg> <span class="hidden-mobile">Начало</span></a>
+                    <button onclick="openLogin()" class="nav-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M11 7L9.6 8.4l2.6 2.6H2v2h10.2l-2.6 2.6L11 17l5-5-5-5zm9 12h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-8v2h8v14z"/></svg> <span class="hidden-mobile">Вход</span></button>
+                    <button onclick="openRegister()" class="btn-primary"><svg class="icon" viewBox="0 0 24 24"><path d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Регистрация</button>
+                </nav>
+            </div>
+        </header>
+
+        <div class="layout-container">
+            <main class="main-content">
+                
+    <h2 class="page-title">Последни дискусии</h2>
+    <div class="post-list">
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (24).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">гараж</span><span class="tag">София</span><span class="tag">инвестиция</span><span class="tag">имоти</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/investitsiia-v-garazh-v-sofiia-za-30-000-evro-struva-li-si.html">Инвестиция в гараж в София за 30 000 евро - струва ли си?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте на всички! Обмислям сериозно да купя гараж в София, в квартал, където живея (Младост 1). Цената, която ми предлагат, е около 30 000 евро, което ми се струва доста висока сума. Искам да чуя вашите мнения и съвети дали това е разумна инвестиция в дългосрочен план. Паркирането в района е пълен кошмар и удобството би било огромно, но въпросът е дали гаражът ще държи цената си или дори ще поскъпва с времето, или е по-добре да насоча тези пари към нещо друго? Какви са рисковете и ползите според вас? Благодаря предварително за всяко мнение!</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Monika_P</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 20.01.2025 22:23</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (22).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">пазар</span><span class="tag">икономика</span><span class="tag">покупки</span><span class="tag">дискусия</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/obrna-li-se-pazart-v-polza-na-kupuvachite.html">Обърна ли се пазарът в полза на купувачите?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Напоследък забелязвам, че по обявите за имоти и дори при автомобилите втора ръка, продавачите стават доста по-сговорчиви. Преди година всеки държеше на цената си и не искаше да свали и лев, но сега виждам как обявите стоят със седмици. Имам чувството, че най-накрая купувачите имат някакво предимство и могат да преговарят по-успешно. Вие как мислите, наистина ли пазарът се охлажда или просто хората са станали по-внимателни с парите си? Любопитно ми е дали някой от вас е сключвал сделка скоро с голям коментар на цената.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Kalin_Bud</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 20.01.2025 20:00</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 11 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (21).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">имоти</span><span class="tag">правни въпроси</span><span class="tag">покупко-продажба</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/predvaritelen-dogovor-za-imot-zadlzhitelno-li-e-da-se-khodi-pri-advokat.html">Предварителен договор за имот - задължително ли е да се ходи при адвокат?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, предстои ми покупка на първо жилище и продавачът вече ми изпрати проект за предварителен договор. От една страна искам да спестя някой лев от хонорари, но от друга ме е страх да не изпусна някоя важна клауза, която после да ми излезе през носа. Чудя се дали стандартните бланки от интернет вършат работа или е задължително да се консултирам с адвокат преди да сложа подписа си? Някой минавал ли е по този път скоро и какви са рисковете, ако се подпише без професионален преглед на документите?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Kamil_S</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 20.01.2025 02:34</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 20 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (5).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Варна</span><span class="tag">София</span><span class="tag">преместване</span><span class="tag">живот край морето</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/premestvane-ot-sofiia-vv-varna-prez-zimata-zasluzhava-li-si.html">Преместване от София във Варна през зимата - заслужава ли си?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, обмислям сериозно да се преместя да живея във Варна, но се притеснявам как ще се почувствам през зимните месеци. В София зимата е ясна, макар и студена, но съм чувал, че край морето влагата и вятърът правят студа доста по-труден за понасяне. Работя дистанционно и не съм обвързан с конкретно място, но не искам да се окажа в празен и пуст град, където няма какво да се прави. Някой правил ли е подобна рокада и какви са реалните плюсове и минуси според вас? Ще се радвам на мнение от хора, които са живели и на двете места.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Karolina_S</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 19.01.2025 14:46</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (2).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">имоти</span><span class="tag">брокер</span><span class="tag">договор</span><span class="tag">продажба</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/ekskluziven-dogovor-s-broker-na-imoti-struva-li-si.html">Ексклузивен договор с брокер на имоти - струва ли си?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, колеги! Имам малко дилема и се надявам на вашите мнения и опит. Предстои ми продажба на апартамент и един брокер много настоява да подпиша ексклузивен договор с неговата агенция. Обяснява ми как така ще работи по-сериозно и ще имам по-добри условия, но аз имам резерви. Чудя се дали не е по-добре да работя с няколко агенции едновременно, за да достигна до повече купувачи. Притеснява ме да не се обвържа и после да съжалявам, ако нещата не потръгнат. Моля, споделете какво мислите и какви са вашите преки впечатления от подобни договори.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Iza_M</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 18.01.2025 17:08</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 16 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (2).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">цени</span><span class="tag">инфлация</span><span class="tag">прогнози</span><span class="tag">пазар</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/tsenite-do-2026-vashite-prognozi-i-nabliudeniia.html">Цените до 2026 - вашите прогнози и наблюдения</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте на всички! Напоследък темата за инфлацията и покачването на цените е все по-актуална. Интересно ми е да чуя вашите мнения и очаквания относно цените до 2026 година. Мислите ли, че ще има стабилизация, или напротив - тенденцията за поскъпване ще продължи? Особено ме вълнуват реални впечатления от пазара - дали забелязвате разлики в цените на хранителни стоки, услуги, горива или недвижими имоти? Как се справяте вие с това и какви стратегии прилагате? Всякакви мнения и наблюдения ще са полезни.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Iliyana_2001</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 18.01.2025 03:22</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (4).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">София</span><span class="tag">квартали</span><span class="tag">Манастирски ливади</span><span class="tag">Кръстова вада</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/manastirski-livadi-vs-krstova-vada-mneniia-ot-realno-zhiveeshchi.html">Манастирски ливади vs. Кръстова вада - мнения от реално живеещи?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, обмисляме със семейството да се преместим в един от тези два квартала в София и сме пред голяма дилема. Искаме да чуем лични впечатления от хора, които действително живеят там - как е инфраструктурата, има ли достатъчно места за паркиране, шумно ли е, какъв е достъпът до градски транспорт и магазини? Особено ни интересува и обстановката с детските градини и училищата. Всяко мнение ще ни бъде от полза, за да вземем информирано решение. Благодаря предварително!</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Martin_O</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 17.01.2025 15:47</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (4).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">етажна собственост</span><span class="tag">ремонт</span><span class="tag">съседи</span><span class="tag">закони</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/problem-ss-ssed-pri-smiana-na-vertikalni-shchrangove.html">Проблем със съсед при смяна на вертикални щрангове</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, предстои ни цялостна подмяна на вертикалните щрангове в блока, тъй като старите са в окаяно състояние и постоянно текат. Всички съседи са съгласни, освен един човек на втория етаж, който категорично отказва да ни пусне в апартамента си, защото бил правил скъп ремонт на банята. Домоуправителят се опитва да преговаря, но човекът дори не отваря вратата. Какви са законовите ни опции в случая и кой трябва да поеме разходите за евентуално разбиване и възстановяване на плочките му, ако се стигне до принудителен достъп?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Diana_1980</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 17.01.2025 10:52</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 11 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (9).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">недвижими имоти</span><span class="tag">строителство</span><span class="tag">акт 16</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/kolko-vreme-realno-se-chaka-ot-akt-14-do-akt-16-v-momenta.html">Колко време реално се чака от Акт 14 до Акт 16 в момента?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, предстои ми покупка на апартамент в сграда, която в момента е на Акт 14, и се чудя какви са реалистичните срокове за завършване. Инвеститорът обещава Акт 16 до края на следващата година, но всички знаем как стоят нещата в строителния бранш напоследък. Има ли някой, който скоро е преминал през този процес, и колко време реално отнема административната част след приключване на грубия строеж? Интересува ме дали да вярвам на обещаните срокове или да се подготвя за поне още година закъснение.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Krasimir_M</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 15.01.2025 23:24</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (16).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Бургас</span><span class="tag">Меден рудник</span><span class="tag">недвижими имоти</span><span class="tag">квартали</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/kakva-e-realnata-situatsiia-v-meden-rudnik.html">Каква е реалната ситуация в Меден рудник?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, обмислям покупка на жилище в Бургас и се спрях на няколко оферти в Меден рудник, но чувам много противоречиви мнения. Някои хора казват, че е пренаселено и има проблеми с инфраструктурата, докато други твърдят, че кварталът се развива много добре и е спокоен. Интересува ме как стоят нещата с градския транспорт, задръстванията сутрин и общата среда за живеене. Ще се радвам някой, който живее там от по-дълго време, да сподели реално мнение без излишни предразсъдъци.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Darin_K</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 14.01.2025 12:36</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (24).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">ипотечен кредит</span><span class="tag">одобрение</span><span class="tag">срокове</span><span class="tag">банки</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/ipotechen-kredit-kolko-vreme-otnema-odobrenieto.html">Ипотечен кредит - Колко време отнема одобрението?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте на всички! Предстои ни да кандидатстваме за ипотечен кредит и се чудим колко време реално отнема цялата процедура по одобрение. От банката ни дават някакви срокове, но ми е интересно какъв е вашият личен опит. Има ли голяма разлика между предварително одобрение и окончателно? Колко време отнема оценката на имота и след това колко време чакахте за финално одобрение, след като вече сте подали всички документи? Всякакви съвети и споделен опит биха ни били от полза, за да знаем какво да очакваме.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Silvia_M</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 14.01.2025 12:27</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 12 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (27).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">ремонт</span><span class="tag">изолация</span><span class="tag">епк</span><span class="tag">енергийна ефективност</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/vnshna-ili-vtreshna-izolatsiia-za-epk-apartament.html">Външна или вътрешна изолация за ЕПК апартамент?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, предстои ми основен ремонт на стар апартамент в ЕПК блок и се чудя кой вариант за изолация е по-удачен. От една страна, външната изглежда по-ефективна, но е трудно да се организираме всички съседи, а и цената е сериозна. От друга страна, вътрешната изолация с вата или стиропор ми се струва по-лесна за изпълнение, но се притеснявам от появата на мухъл и конденз по стените. Някой правил ли е скоро подобен ремонт и заслужава ли си инвестицията в по-скъпи материали? Ще се радвам на всякакви съвети и опит от първа ръка.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Yuliana_Z</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 13.01.2025 16:12</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (26).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">имоти</span><span class="tag">документи</span><span class="tag">агенция по вписванията</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/kak-se-vadi-udostoverenie-za-tezhesti-i-kolko-vreme-otnema-sega.html">Как се вади удостоверение за тежести и колко време отнема сега?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, предстои ми сделка с имот и ми трябва удостоверение за тежести, но не съм вадил такова от доста време. Някой знае ли дали още се ходи лично в Агенцията по вписванията или вече може да се заяви онлайн с електронен подпис? Също така ме интересува колко дни реално отнема издаването му в момента, защото брокерът ме плаши с големи опашки. Ако някой скоро е минавал през тази процедура, ще се радвам да сподели актуална информация.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Radoslav_Tech</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 12.01.2025 07:59</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (6).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">наем</span><span class="tag">домашни любимци</span><span class="tag">наемодатели</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/trudno-namirane-na-kvartira-s-domashen-liubimets.html">Трудно намиране на квартира с домашен любимец</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, от известно време си търся апартамент под наем, но всеки път, когато спомена, че имам малко куче, разговорът приключва веднага. Наемодателите сякаш изпадат в ужас, че животното ще изяде мебелите или ще съсипе паркета, въпреки че кучето ми е възпитано и не прави поразии. Разбирам, че има лоши примери с безотговорни стопани, но ми се струва крайно несправедливо да ме дискриминират така. Има ли някакъв начин да убедя собствениците, че сме коректни наематели, или просто трябва да крия животното, което не ми се иска да правя?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Monika_P</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 11.01.2025 11:03</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (9).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">съседи</span><span class="tag">ремонт</span><span class="tag">шум</span><span class="tag">битови проблеми</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/remont-v-nedelia-sutrin-ima-li-zakonen-nachin-da-gi-spra.html">Ремонт в неделя сутрин - има ли законен начин да ги спра?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, съседите от горния етаж са решили да къртят плочки точно днес, в неделя, в 7 сутринта. Вече втори час слушам ударна бормашина и не мога да си почина, а имам малко дете, което се буди от шума. Опитах се да говоря с тях, но ми затръшнаха вратата и продължиха да работят. Има ли смисъл да звъня на 112 или трябва да търся домоуправителя? Вече не знам как да постъпя, за да спра това безумие.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Martin_O</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 11.01.2025 07:13</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (22).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">ценообразуване</span><span class="tag">инфлация</span><span class="tag">икономика</span><span class="tag">поскъпване</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/naistina-li-spadat-tsenite-ili-e-samo-mediina-kampaniia.html">Наистина ли спадат цените или е само медийна кампания?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте на всички! Напоследък непрекъснато слушам по новините как цените на основни стоки и услуги започват да спадат, инфлацията се забавя и т.н. Обаче като отида в магазина или видя сметките, не усещам никакво облекчение в семейния бюджет. Дори ми се струва, че някои неща продължават да поскъпват, макар и по-бавно. Вие какво мислите? Забелязвате ли реален спад в цените на нещо конкретно, или това е по-скоро медиен балон? Интересува ме най-вече за хранителни продукти, горива и услуги.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Lachezar_B</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 09.01.2025 21:42</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (4).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">наеми</span><span class="tag">имоти</span><span class="tag">правен съвет</span><span class="tag">проблеми</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/problemen-naematel-ne-plashcha-i-otkazva-da-napusne-apartamenta.html">Проблемен наемател не плаща и отказва да напусне апартамента</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, изпаднах в много неприятна ситуация с един наемател, който вече два месеца не ми плаща наема, а сметките са направо космически. Опитах се да говоря с него нормално, но той просто ме игнорира или ми казва, че няма къде да отиде. Договорът ни изтече миналия месец, но той все още стои вътре и не иска да си събере багажа. Вече започвам да губя търпение и не знам какви са ми законните права в случая. Някой сблъсквал ли се е с такъв наглец и как се действа в такава ситуация, без да се стига до физически конфликти?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Veselin_B</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 08.01.2025 16:40</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (1).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">етажна собственост</span><span class="tag">асансьор</span><span class="tag">ремонт</span><span class="tag">съседи</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/problem-s-plashchaneto-na-speshen-remont-na-asansora.html">Проблем с плащането на спешен ремонт на асансьора</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, съседи! Асансьорът в блока ни спря внезапно и техниците казаха, че е необходим скъп ремонт на контролното табло, за да тръгне отново. Повечето от нас са съгласни да съберем парите, но има двама съседи, които категорично отказват да платят, твърдейки, че не ползват асансьора, защото живеят на първия етаж. Наясно съм, че по закон поддръжката на общите части е задължителна за всички, но не знам как точно да ги убедя, без да стигаме до скандали. Има ли някакъв легален начин да ги принудим да си платят дела, или трябва ние да покрием разходите им? Ще се радвам на съвет от някой, който е минал през подобна ситуация.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Matey_90</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 08.01.2025 14:06</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (24).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">агенция</span><span class="tag">комисионна</span><span class="tag">имоти</span><span class="tag">покупка</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/mneniia-za-agentsiia-imotstart-i-3-komisionna.html">Мнения за агенция ИмотСтарт и 3% комисионна</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте на всички! Предстои ми покупка на апартамент и попаднах на оферта през агенция "ИмотСтарт". Харесах имота, но когато стигнахме до условията, ми обявиха, че комисионната им е 3% от продажната цена, която трябва да платя аз като купувач. Това ми се вижда доста висока сума, особено предвид цените на имотите в момента. Има ли някой опит с тази агенция или с плащането на такава комисионна? Струва ли си да им платя толкова много или да търся други варианти? Ще се радвам на всякакви мнения и съвети!</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Darin_K</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 08.01.2025 04:37</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 11 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (2).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">почивка</span><span class="tag">село</span><span class="tag">море</span><span class="tag">избор</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/pochivka-kshcha-na-selo-ili-apartament-na-moreto.html">Почивка: Къща на село или апартамент на морето?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте на всички! Тази година със семейството ни се чудим къде да отидем на почивка и не можем да решим. Единият вариант е да наемем къща на село, където е тихо, спокойно и има много природа, идеално за релакс. Другият е апартамент на морето, с плаж, заведения и всичко останало, което е по-динамично. Селото ни привлича с уюта и бягството от шума, но пък морето си е море - слънце, плаж, коктейли. Вие какво бихте избрали и защо? Споделете вашите предпочитания и опит, моля!</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Diana_1980</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 07.01.2025 20:31</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 20 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (9).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">имоти</span><span class="tag">правен съвет</span><span class="tag">покупко-продажба</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/kak-se-proveriava-partsel-za-tezhesti-predi-pokupka.html">Как се проверява парцел за тежести преди покупка?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, предстои ми покупка на парцел и се притеснявам да не се окаже, че има някакви скрити ипотеки или възбрани, за които не знам. Чувал съм, че трябва да се вади някакво удостоверение от Агенцията по вписванията, но не съм напълно сигурен как точно става процедурата. Има ли начин да направя проверка онлайн или задължително трябва да ходя на място при нотариус? Ще се радвам, ако някой, който скоро е минавал по този път, сподели какви документи да изискам от продавача, за да съм спокоен.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Zoya_99</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 07.01.2025 01:07</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 12 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (1).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">имоти</span><span class="tag">правен съвет</span><span class="tag">ремонти</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/skriti-defekti-sled-pokupka-na-apartament-kakvo-da-pravia.html">Скрити дефекти след покупка на апартамент - какво да правя?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, преди два месеца купихме първото си жилище и всичко изглеждаше супер при огледите. След като се нанесохме обаче, се оказа, че под ламината в хола има сериозен теч, който са прикрили с мебели, а и ел. инсталацията в кухнята е направо опасна. Продавачите сега не си вдигат телефоните и твърдят, че всичко е било наред, докато са живели там. Има ли смисъл да се занимавам с адвокати или да си оправям нещата за моя сметка, за да не си хабя нервите?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Lachezar_B</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 06.01.2025 21:49</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (10).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">ремонти</span><span class="tag">правен съвет</span><span class="tag">майстори</span><span class="tag">измама</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/maistori-mi-ssipakha-baniata-i-izcheznakha-ima-li-smisl-da-gi-sdia.html">Майстори ми съсипаха банята и изчезнаха - има ли смисъл да ги съдя?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, попаднах в ужасна ситуация с ремонт на банята. Наех едни момчета по препоръка, които взеха капаро, наредиха плочките криво и спряха да вдигат телефона преди седмица. Сега банята е неизползваема, фугите са размити, а те просто изчезнаха с парите за материалите. Нямам писмен договор, само чатове във Вайбър и разписки за част от сумата. Има ли изобщо смисъл да ги търся по съдебен път или само ще си загубя времето и нервите?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Anna_Varna</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 06.01.2025 17:28</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 13 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (27).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">ново строителство</span><span class="tag">теч</span><span class="tag">правен съвет</span><span class="tag">проблеми със строител</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/problem-s-tech-ot-pokriva-v-novo-stroitelstvo-stroiteliat-ne-otgovaria.html">Проблем с теч от покрива в ново строителство - строителят не отговаря</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, имам сериозен проблем с апартамента, който купих преди година в нова сграда на последен етаж. При последните дъждове таванът в спалнята протече и се появиха петна, а мазилката започна да се рони. Опитах се да се свържа със строителя многократно, но той спря да си вдига телефона и не отговаря на имейли. Гаранционният срок би трябвало да тече, но не знам какви законови стъпки да предприема, за да го принудя да извърши ремонт. Някой сблъсквал ли се е с подобна ситуация и към кого е най-добре да се обърна за съдействие?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Diana_1980</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 06.01.2025 13:20</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 20 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (20).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">ремонт</span><span class="tag">строителство</span><span class="tag">бюджет</span><span class="tag">апартамент</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/biudzhet-za-tsialosten-remont-na-tristaen-apartament-prez-2026-g.html">Бюджет за цялостен ремонт на тристаен апартамент през 2026 г.</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, предстои ми основен ремонт на тристаен апартамент в София и се опитвам да си направя някаква сметка за разходите. Цените на материалите и труда се промениха доста през последната година и ми е трудно да преценя колко да заделя за всичко. Ще се радвам, ако някой, който скоро е приключил с ремонта, сподели каква сума му е излязла на квадрат и какви са основните пера в бюджета. Интересува ме основно разбивка за труд, ВиК, Ел. инсталации и довършителни работи, за да знам какво да очаквам. Благодаря предварително на всички, които ще се включат с информация!</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Rostislav_55</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 05.01.2025 18:54</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 13 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (27).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">ипотеки</span><span class="tag">жилище</span><span class="tag">лихви</span><span class="tag">имоти</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/kupuvate-li-imot-sega-ili-chakate-spad-na-likhvite-po-ipotekite.html">Купувате ли имот сега или чакате спад на лихвите по ипотеките?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, колеги! От известно време се чудя дали да предприема покупка на жилище. Лихвите по ипотечните кредити в момента са доста високи спрямо преди няколко години и това ме кара да се замисля сериозно. От една страна, цените на имотите продължават да растат или поне не падат съществено, а от друга, плащането на голяма лихва за 20-30 години е сериозно перо в бюджета. Смятате ли, че има смисъл да се изчака още година-две с надеждата лихвите да тръгнат надолу, или рискът цените на жилищата да се вдигнат още повече е по-голям? Какво е вашето мнение и какви са вашите планове?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Grigor_77</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 02.01.2025 18:17</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 11 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (15).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">домоуправител</span><span class="tag">етажна собственост</span><span class="tag">вход</span><span class="tag">съвети</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/ima-li-smisl-ot-profesionalen-domoupravitel-vv-vkhoda.html">Има ли смисъл от професионален домоуправител във входа?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте съседи, при нас на общото събрание сериозно се обмисля варианта да наемем външна фирма за професионален домоуправител. Досега се справяхме сами, но постоянно има скандали кой не е платил за чистачката или за асансьора. Чудя се дали тези фирми наистина вършат работа или само идват веднъж месечно да съберат таксите и да си тръгнат. Имате ли опит с такива фирми и струва ли си допълнителният разход за домакинството?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Maria_90</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 02.01.2025 00:13</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 14 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (9).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">строителна фирма</span><span class="tag">на зелено</span><span class="tag">имоти</span><span class="tag">Престиж Билд</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/mneniia-za-stroitelna-firma-prestizh-bild-i-pokupki-na-zeleno.html">Мнения за строителна фирма "Престиж Билд" и покупки "на зелено"?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте на всички! Интересувам се дали някой от вас има преки впечатления от строителна фирма "Престиж Билд"? Разглеждаме техен обект, който е още "на зелено" и се чудим дали да рискуваме. Моля, споделете всякакви мнения относно качеството на строителство, спазване на срокове, коректност при договориране и евентуални проблеми, с които сте се сблъсквали. Особено ценна би била информация от хора, които вече са купували апартамент от тях на този етап. Благодарен съм за всяка помощ!</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Todor_Builder</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 01.01.2025 14:27</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (17).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">жилище</span><span class="tag">панелка</span><span class="tag">ново строителство</span><span class="tag">ремонт</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/dilema-za-zhilishche-stara-panelka-ili-novo-na-shpaklovka-i-zamazka.html">Дилема за жилище: Стара панелка или ново на шпакловка и замазка?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте на всички! С жена ми сме изправени пред сериозен избор и ще се радваме на всякакви мнения и съвети. Търсим да купим първо семейно жилище и бюджетът ни е доста ограничен. Основната ни дилема е дали да инвестираме в по-стара панелка, която обикновено е в утвърден квартал с добра инфраструктура и вече обзаведена, или да се насочим към ново строителство, което е на шпакловка и замазка, но обикновено в по-краен или развиващ се квартал. При панелката ни притесняват евентуални скрити дефекти и стари инсталации, докато при новото ни плашат огромните разходи за довършителни работи и обзавеждане. Кой вариант според вас е по-разумен в дългосрочен план и за младо семейство?</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Oleg_K</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 01.01.2025 12:15</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 отговора</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://expert-bolgariya-property.com/ava/135540 (7).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">ипотечен кредит</span><span class="tag">имоти</span><span class="tag">банки</span><span class="tag">покупко-продажба</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://expert-bolgariya-property.com/posts/otsenka-ot-bankata-po-niska-ot-prodazhnata-tsena-kakvo-sledva.html">Оценка от банката по-ниска от продажната цена - какво следва?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Здравейте, намерихме си мечтаното жилище и вече подписахме предварителен договор, но се появи проблем. Оценителят от банката оцени имота с 20 000 евро по-малко от продажната цена, която сме договорили с продавача. Сега банката ни отпуска по-малък кредит и не ни достигат средства за самоучастие. Имате ли опит с подобни ситуации и какви са вариантите - да се пазарим с продавача, да търсим друга банка или да искаме преразглеждане на оценката? Ще се радвам на всякакви съвети, защото сме в безизходица.</p>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Diana_1980</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 01.01.2025 07:57</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 10 отговора</span>
+            </div>
+        </div>
+        
+    </div>
+
+    
+    <div class="pagination">
+        
+        
+        <a href="https://expert-bolgariya-property.com/" class="page-link ">1</a>
+        
+        
+        <a href="https://expert-bolgariya-property.com/page_2.html" class="page-link active">2</a>
+        
+    </div>
+    
+    
+            </main>
+            
+            <aside class="sidebar">
+                <div class="card card-dark">
+                    <h3 class="widget-title">Статистика на форума</h3>
+                    <ul class="stat-list">
+                        <li><span>Теми:</span> <span>60</span></li>
+                        <li><span>Мнения:</span> <span>900</span></li>
+                        <li><span>Потребители:</span> <span>127</span></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="widget-title">Последно активни</h3>
+                    <ul class="random-links">
+                        
+                        <li><a href="https://expert-bolgariya-property.com/posts/zashcho-niakoi-imoti-stoiat-po-saitovete-s-godini-bez-tsenata-da-pada.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Защо някои имоти стоят по сайтовете с години, без цената да пада?</a></li>
+                        
+                        <li><a href="https://expert-bolgariya-property.com/posts/otsenka-ot-bankata-po-niska-ot-prodazhnata-tsena-kakvo-sledva.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Оценка от банката по-ниска от продажната цена - какво следва?</a></li>
+                        
+                        <li><a href="https://expert-bolgariya-property.com/posts/ekskluziven-dogovor-s-broker-na-imoti-struva-li-si.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Ексклузивен договор с брокер на имоти - струва ли си?</a></li>
+                        
+                        <li><a href="https://expert-bolgariya-property.com/posts/problem-s-tech-ot-pokriva-v-novo-stroitelstvo-stroiteliat-ne-otgovaria.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Проблем с теч от покрива в ново строителство - строителят не отговаря</a></li>
+                        
+                        <li><a href="https://expert-bolgariya-property.com/posts/maistori-mi-ssipakha-baniata-i-izcheznakha-ima-li-smisl-da-gi-sdia.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Майстори ми съсипаха банята и изчезнаха - има ли смисъл да ги съдя?</a></li>
+                        
+                    </ul>
+                </div>
+            </aside>
+        </div>
+
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div>
+                    <h4 class="footer-title"><svg class="icon" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg> expert-bolgariya-property.com</h4>
+                    <p class="footer-text">Общност за обмяна на знания и опит. Създаваме място за културни дискусии на всякакви теми.<br><br>&copy; 2026 Всички права запазени.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Правила на форума</h4>
+                    <p class="footer-text">Спам, обиди, неподходящо съдържание и тролове са строго забранени. Нека поддържаме високо ниво на дискусията.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Информация</h4>
+                    <p class="footer-text">Сайтът използва бисквитки за правилното си функциониране.<br><a href="#">Политика за поверителност</a> &middot; <a href="#">Условия за ползване</a></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>
+    
